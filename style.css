@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+*{
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.girdContainer{
+    max-width: 960px;
+}
+.gridRow{
+    display:flex;
+}
+.gridCell{
+    background-color: white; 
+    outline: 1px solid black;
+}
